@@ -11,6 +11,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="utils.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="image/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
 </head>
 
 <body>
@@ -405,72 +410,79 @@
                 </div>
             </section>
             <!-- contact section starts from here  -->
-             <section id="contact" class="contact">
-        <div class="container">
-            <div class="section-header">
-                <h2>Contact Me</h2>
-                <div class="underline"></div>
-            </div>
-            <div class="contact-content" >
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-phone"></i>
-                        </div>
-                        <div class="contact-text">
-                            <h3>Phone</h3>
-                            <p>+19145407453</p>
-                            
-                        </div>
+        <section id="contact" class="contact-section">
+        <h2 class="section-title underline reveal">Get In Touch</h2>
+        
+        <div class="contact-container">
+            <!-- Contact Information Container -->
+            <div class="contact-info reveal">
+                
+                <div class="info-item">
+                    <div class="info-icon">
+                        <i class="fas fa-phone-alt"></i>
                     </div>
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div class="contact-text">
-                            <h3>Email</h3>
-                            <p>Info@revup.agency</p>
-                        </div>
+                    <div class="info-content">
+                        <h4>Phone</h4>
+                        <p>+19145407453</p>
                     </div>
-                    
-                    <div class="contact-social">
-                        <h3>Follow Us</h3>
+                </div>
+                
+                <div class="info-item">
+                    <div class="info-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="info-content">
+                        <h4>Email</h4>
+                        <a href="mailto:your.email@example.com">info@revup.agency</a>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <div class="info-icon">
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                    <div class="info-content">
+                        <h4>Follow Us</h4>
                         <div class="social-links">
-                            <a href="https://x.com/revup_agency" aria-label="Twitter" target="Twitter"><i
-                                    class="fab fa-x-twitter"></i></a>
-                            <a href="https://www.linkedin.com/company/revup-dot-agency/" aria-label="LinkedIn"
-                                target="_blank"><i class="fab fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/revup.dot.agency?igsh=MXEyeHR2NWRnd3Z1Mg%3D%3D&utm_source=qr" aria-label="Instagram"
-                                target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://x.com/usmanmunirum?s=21" aria-label="Twitter" target="_blank"><i class="fab fa-x-twitter"></i></a>
+                            <a href="https://www.linkedin.com/company/revup-dot-agency/" aria-label="LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://www.instagram.com/revup.dot.agency?igsh=MXEyeHR2NWRnd3Z1Mg%3D%3D&utm_source=qr" aria-label="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>
-                <form action="https://formsubmit.co/usman.revup@gmail.com" method="POST" class="modern-form">
-
+            </div>
+            
+            <!-- Contact Form Container -->
+            <div class="contact-form reveal">
+                <h3>Send Us a Message</h3>
+                <form action="https://formsubmit.co/usman.revup@gmail.com" method="POST">
+                    <!-- Add your actual email in the form action above -->
+                    
+                    
                     <div class="form-group">
-                        <input type="text" id="name" name="name" class="form-control" placeholder=" " required>
-                        <label for="name">Your Name</label>
+                        <input type="text" name="name" class="form-control" placeholder=" " required>
+                        <label class="form-label">Your Name</label>
                     </div>
-
+                    
                     <div class="form-group">
-                        <input type="email" id="email" name="email" class="form-control" placeholder=" " required>
-                        <label for="email">Email</label>
+                        <input type="email" name="email" class="form-control" placeholder=" " required>
+                        <label class="form-label">Your Email</label>
                     </div>
-
+                    
                     <div class="form-group">
-                        <input type="tel" id="phone" name="phone" class="form-control" placeholder=" ">
-                        <label for="phone">Phone Number ( optional ) </label>
+                        <input type="tel" name="phone" class="form-control" placeholder=" ">
+                        <label class="form-label">Phone</label>
                     </div>
-
+                    
                     <div class="form-group">
-                        <textarea id="message" name="message" class="form-control" placeholder=" " required></textarea>
-                        <label for="message">Your Message</label>
+                        <textarea name="message" class="form-control" placeholder=" " required></textarea>
+                        <label class="form-label">Your Message</label>
                     </div>
-
+                    
                     <button type="submit" class="submit-btn">Send Message</button>
-
                 </form>
             </div>
+        </div>
     </section>
         </main>
         <!-- START: Simplified Modern Footer -->

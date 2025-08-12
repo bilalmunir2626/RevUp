@@ -411,7 +411,13 @@
             <div class="contact-form reveal">
                 <h3>Send Us a Message</h3>
                 <form action="https://formsubmit.co/usman.revup@gmail.com" method="POST">
-                    <!-- Add your actual email in the form action above -->
+                    <input type="hidden" name="_next" value="http://revup.agency/thank-you.html">
+
+          <!-- Disable captcha -->
+          <input type="hidden" name="_captcha" value="false">
+
+          <!-- Spam honeypot -->
+          <input type="text" name="_honey" style="display:none">
                     
                     
                     <div class="form-group">
@@ -473,5 +479,6 @@
     <script src="script.js" defer></script>
 </body>
 </html>
+
 
 
